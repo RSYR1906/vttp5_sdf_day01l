@@ -1,14 +1,14 @@
 # Compile instructions for Java :smile:
 
-**javac --source-path myapp -d bin myapp/\*** (Compiling anything in myapp folder and place inside the bin folder as .class) :rocket:
+1. **javac --source-path myapp -d bin myapp/\*** (Compiling anything in myapp folder and place inside the bin folder as .class) :rocket:
 
-**java -cp bin myapp.HelloWorld** (-cp means classpath pointing at the bin folder and running the executable)
+2. **java -cp bin myapp.HelloWorld** (-cp means classpath pointing at the bin folder and running the executable)
 
-**jar -c -v -f hworld.jar -e myapp.HelloWorld .** (creating a jar file from a class file)
+3. **jar -c -v -f hworld.jar -e myapp.HelloWorld .** (creating a jar file from a class file)
 
-**java -jar hworld.jar myapp.HelloWorld** (Running the jar file to get an output)
+4. **java -jar hworld.jar myapp.HelloWorld** (Running the jar file to get an output)
 
-**java -jar hworld.jar** (This command tells the JVM to run the Main-Class defined in the JAR’s manifest, which is myapp.HelloWorld in this example.)
+5. **java -jar hworld.jar** (This command tells the JVM to run the Main-Class defined in the JAR’s manifest, which is myapp.HelloWorld in this example.)
 
 A JAR file is essentially a package containing compiled Java .class files and other resources.
 
