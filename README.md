@@ -6,9 +6,9 @@
 
 3. **jar -c -v -f hworld.jar -e myapp.HelloWorld .** (creating a jar file(package) from a class file)
 
-4. **java -jar hworld.jar myapp.HelloWorld** (Running the jar file(package) to get an output)
+4. **java -jar hworld.jar myapp.HelloWorld** (Running the jar file(package) to get an output outside of the bin folder)
 
-5. **java -jar hworld.jar** (This command tells the JVM to run the Main-Class defined in the JAR’s manifest, which is myapp.HelloWorld in this example.)
+5. **java -jar hworld.jar** (Running in the bin folder. This command tells the JVM to run the Main-Class defined in the JAR’s manifest, which is myapp.HelloWorld in this example.)
 
 A JAR file is essentially a package containing compiled Java .class files and other resources.
 
