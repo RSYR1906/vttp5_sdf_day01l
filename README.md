@@ -2,7 +2,7 @@
 
 1. **javac --source-path myapp -d bin myapp/\*** (Compiling anything in myapp folder and place inside the bin folder as .class) :rocket:
 
-2. **java -cp bin myapp.HelloWorld (packageName).(className) ** (-cp means classpath pointing at the bin folder and running the executable)
+2. **java -cp bin myapp.HelloWorld** (-cp means classpath pointing at the bin folder and running the executable)
 
 3. **jar -c -v -f hworld.jar -e myapp.HelloWorld .** (creating a jar file(package) from a class file)
 
